@@ -13,6 +13,11 @@ public class App {
         return "Hello World!";
     }
 
+    // Add this method for your test case
+    public String getMessage() {
+        return "Hello World!";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }
